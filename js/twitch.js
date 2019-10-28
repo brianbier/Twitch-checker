@@ -12,7 +12,7 @@ var twitch = (function (){
     });
   }
   function loadData(twitchData){
-    for(var i = 0; i <= twitchData.length - 1; i++){
+    for(var i = 0; i < twitchData.length; ++i){
       getTwitchTv(twitchData[i]);
     }
   }
